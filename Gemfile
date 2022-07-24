@@ -64,6 +64,11 @@ group :development do
   # gem "spring"
 end
 
+gem 'devise'
+
+gem "letter_opener", group: :development
+# gem 'mail_interceptor', group: [:development, :staging]
+
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
