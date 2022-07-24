@@ -8,6 +8,6 @@ class User < ApplicationRecord
   after_create :send_welcome_email
 
   def send_welcome_email
-    UserMail.welcome(self).deliver_now
+    UserMailer.welcome(self).deliver_now
   end
 end

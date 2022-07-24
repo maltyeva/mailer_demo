@@ -66,6 +66,8 @@ end
 
 gem 'devise'
 
+gem 'bootstrap-email'
+
 gem "letter_opener", group: :development
 # gem 'mail_interceptor', group: [:development, :staging]
 
